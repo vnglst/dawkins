@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset='utf-8'>
+        <title>Dawkins' trees</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    </head>
+    
+    <body>
+        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Dawkins' Trees</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="js-randomize" href="#">Randomize</a>
+                        </li>
+                        <li>
+                            <a href="../">Back to Labs</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/vnglst/dawkins">Source on GitHub</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.nav-collapse -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.navbar -->
+        <div class="container">
+            <div class="col-md-6 graphics">
+                <canvas id="canvas1" width="200" height="200"></canvas>
+                <canvas id="canvas2" width="200" height="200"></canvas>
+                <br />
+                <canvas id="canvas3" width="200" height="200"></canvas>
+                <canvas id="canvas4" width="200" height="200"></canvas>
+            </div>
+            <div class="text col-md-6">
+                <p>Select a <b>mutant</b> to continue! The first one is always the "original".</p><br />
+                <p>From
+                    <a href="https://archive.org/details/BlindWatchmaker">The Blind Watchmaker</a> by Richard Dawkins (first published
+                    <b>1987</b>)</p>
+                <p>"When I wrote the program, I never thought that it would evolve anything
+                    more than a variety of tree-like shapes. I had hoped for weeping willows,
+                    cedars of Lebanon, Lombardy poplars, seaweeds, perhaps deer antlers. Nothing
+                    in my biologist's intuition, nothing in my 20 years' experience of programming
+                    computers, and nothing in my wildest dreams, prepared me for what actually
+                    emerged on the screen. I can't remember exactly when in the sequence it
+                    first began to dawn on me that an evolved resemblance to something like
+                    an insect was possible. With a wild surmise, I began to breed, generation
+                    after generation, from whichever child looked most like an insect. My incredulity
+                    grew in parallel with the evolving resemblance. [...] Admittedly they have
+                    eight legs like a spider, instead of six like an insect, but even so! I
+                    still cannot conceal from you my feeling of exultation as I first watched
+                    these exquisite creatures emerging before my eyes. I distinctly heard the
+                    triumphal opening chords of
+                    <i>Also sprach Zarathustra</i>(
+                    <i>the '2001 theme'</i>) in my mind. I couldn't eat, and that night 'my'
+                    insects' swarmed behind my eyelids as I tried to sleep."</p>
+            </div>
+        </div>
+        <!-- /.container -->
+    </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="helperTools.js"></script>
+    <script src="tree.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-43209054-1', 'koenvangilst.nl');
+        ga('send', 'pageview');
+    </script>
+
+</html>
