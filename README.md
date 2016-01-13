@@ -4,6 +4,6 @@ A Single Page App (written in Javascript) based on the computer program describe
 ## Technology used
 The program uses jQuery and Twitter Bootstrap and it’s one of the first programs I wrote in Javascript.
 
-[See it in action here] (http://labs.koenvangilst.nl/dawkins)
+[See it in action here] (http://dawkins.koenvangilst.nl/)
 
-[Read more about it here] (http://labs.koenvangilst.nl/dawkins/about.html)
+[Read more about it here] (http://dawkins.koenvangilst.nl/about.html)
